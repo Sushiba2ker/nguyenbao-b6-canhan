@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <nav>
@@ -30,6 +31,78 @@
             <img src="images/hero-image.jpg" alt="Welcome Image">
         </div>
         <p>This is the home page of our website. Feel free to explore!</p>
+
+        <!-- New Featured Section -->
+        <section class="featured-section">
+            <h2>Featured Content</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies.</p>
+                </div>
+                <div class="featured-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design Services</h3>
+                    <p>Creative and responsive design solutions.</p>
+                </div>
+                <div class="featured-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile First</h3>
+                    <p>Optimized for all devices and screens.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call-to-Action Section -->
+        <section class="cta-section">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's work together to bring your ideas to life.</p>
+            <a href="contact.html" class="cta-button">Get Started</a>
+        </section>
+
+        <!-- New Testimonials Section -->
+        <section class="testimonials-section">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Amazing service and professional team. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <img src="images/avatar1.jpg" alt="John Doe">
+                            <div>
+                                <h4>John Doe</h4>
+                                <p>CEO, Tech Corp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The best decision we made for our business website."</p>
+                        <div class="testimonial-author">
+                            <img src="images/avatar2.jpg" alt="Jane Smith">
+                            <div>
+                                <h4>Jane Smith</h4>
+                                <p>Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Newsletter Section -->
+        <section class="newsletter-section">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest updates and news</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
     </main>
 
     <script src="script.js"></script>
